@@ -1,6 +1,6 @@
 # Working with Attributes
 
-As we learned in the last tutorial, all Cytoscape *really* needs is an edge list with two columns in it. But you might also want to supply Cytoscape with a list of nodes. That way, you can feed Cytoscape extra information that you can use to distinguish among nodes. That extra information about your nodes is called **attributes**.
+As we learned in the [last tutorial](readme.md), all Cytoscape *really* needs is an edge list with two columns in it. But you might also want to supply Cytoscape with a list of nodes. That way, you can feed Cytoscape extra information that you can use to distinguish among nodes. That extra information about your nodes is called **attributes**.
 
 (Actually, edges can have attributes, too, as you might have guessed. In the case of edges, the attributes usually describe the nature of the connection between nodes. For example, if I had a People column and a Book column, I could use edge attributes to describe the nature of each connection: *published*, *wrote*, *illustrated*. We'll just deal with node attributes here, but the same steps apply to edge attributes, too.)
 
@@ -34,7 +34,7 @@ Once you've prepared your node list, save it as either an Excel document or a CS
 
 Head back to Cytoscape, where the graph you created during the previous tutorial should be open. We're now going to add our new node list to the existing graph.
 
-Do that by clicking on the **Import Table from File** button, circled below. In the window that pops up, select your node list and click **Open**. 
+Do that by clicking on the **Import Table from File** button, circled below. In the window that pops up, select your node list and click **Open**.
 
 ![][2]
 
@@ -94,7 +94,7 @@ To get Cytoscape to provide these values, choose **Tools** from Cytoscape's menu
 
 ## Understanding these statistics
 
-You can close the Statistics panel, or save the statistics, or both. To understand what these numbers mean, refresh your memory of the [social network analysis glossary](https://github.com/miriamposner/network_analysis_workshop/blob/master/social-network-glossary.md) I provided you in the last tutorial. Here's an important caveat, though: Some of these statistics are meaningful for the kind of graph we have, and some of them aren't. We have a [**bimodal network**](http://www.scottbot.net/HIAL/index.html@p=41158.html), meaning we have two different kinds of things: actors and nodes. Not all measures of networks make sense for bimodal networks. 
+You can close the Statistics panel, or save the statistics, or both. To understand what these numbers mean, refresh your memory of the [social network analysis glossary](https://github.com/miriamposner/network_analysis_workshop/blob/master/social-network-glossary.md) I provided you in the last tutorial. Here's an important caveat, though: Some of these statistics are meaningful for the kind of graph we have, and some of them aren't. We have a [**bimodal network**](http://www.scottbot.net/HIAL/index.html@p=41158.html), meaning we have two different kinds of things: actors and nodes. Not all measures of networks make sense for bimodal networks.
 
 Degree centrality, for example, still makes some sense for bimodal networks. If a node has a bunch of connections, we know it's either *an actor who appeared in a lot of movies* or *a film that contains a lot of actors*. (Although, obviously, those two qualities are two very different things.) The clustering coefficient statistic, however, means very little for bimodal networks, because your network contains two different orders of things. To read more about measures of bimodal networks, see Scott Weingart's [stern words of advice.](http://www.scottbot.net/HIAL/index.html@p=41158.html)
 
