@@ -96,7 +96,7 @@ Looking at the **Node** style pane, you'll see that we can alter many aspects of
 
 The **Map.** (mapping) column allows you to control the visual features of your nodes *according to their properties*. For example, let's say you'd like all of the films from a particular studio to appear in pink. You can do that by mapping that attribute to a particular color. Or, let's say you'd like those nodes with more connections to appear larger. You can do that with the mapping control.
 
-The problem is, we don't have any of that information currently included in our network. So in the next tutorial, we'll look at how to load up **attributes** for our nodes.
+The problem is, we don't have any of that information currently included in our network. So in the [next tutorial](working-with-attributes.md), we'll look at how to load up **attributes** for our nodes.
 
 ![][8]
 
