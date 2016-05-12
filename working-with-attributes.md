@@ -8,6 +8,7 @@ As we learned in the [last tutorial](readme.md), all Cytoscape *really* needs is
 
 Your node list should contain, at a minimum, one column that supplies the name of every node *once*. My edge list, as you may have noticed, contained many actors' names and film titles multiple times. For example, since Ida Anderson appeared in multiple films, I had rows that looked like this:
 
+```
 Ida Anderson	Deceit
 
 Ida Anderson	A Son of Satan
@@ -17,6 +18,7 @@ Ida Anderson	The Secret Sorrow
 Ida Anderson	Gayety
 
 Ida Anderson	Ghost of Tolson's Manor
+```
 
 We don't want this in our node list, though. We only want Ida Anderson to appear once, and we only want each film's title to appear once. Actors and films should all be in the same column.
 
@@ -25,6 +27,8 @@ By convention, we usually label node names **id**, although it won't mess anythi
 In subsequent columns, you can provide attributes for each of your nodes. I'll just supply one here, called **type**, containing either **actor** or **film**. You could provide multiple columns, though, like **gender** or **director**.
 
 Once you've prepared your node list, save it as either an Excel document or a CSV (either is fine).
+
+If you'd like, you can use the sample node list located [here](data/nodelist.csv). (This will only work if you also used the sample edge list, though!)
 
 ![][1]
 
