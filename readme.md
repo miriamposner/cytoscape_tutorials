@@ -18,6 +18,8 @@ Other kinds of relationships you could describe in an edge list:
 
 You can save your spreadsheet as an Excel document (with the file extension .xls) or its generic equivalent, a CSV (with the file extension .csv). Cytoscape can interpret both of these formats.
 
+If you don't have your own data, you can use the sample edgelist located [here](data/edgelist.csv).
+
 ![][1]
 
 [1]: images/creating-network-graphs-with-cytoscape/setting-up-your-data.png
