@@ -70,7 +70,7 @@ For now, note that you can zoom in on parts of your network using the magnifying
 
 ## Switch up your style
 
-One of the easiest ways to change the look of your network diagram is to switch the style using one of Cytoscape's built-in options. To do that, click the **Style **tab on the control panel and then choose one of the options with which you're presented. I don't know if I *love* any of them, but some are more legible than others.
+One of the easiest ways to change the look of your network diagram is to switch the style using one of Cytoscape's built-in options. To do that, click the **Style** tab on the control panel and then choose one of the options with which you're presented. I don't know if I *love* any of them, but some are more legible than others.
 
 ![][6]
 
