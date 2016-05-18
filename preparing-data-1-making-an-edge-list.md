@@ -4,8 +4,9 @@ As you learned in [Creating Network Graphs with Cytoscape](readme.md), you need 
 
 | actor | film |
 |-------- | ------- |
-| Oscar Micheaux | Body and Soul |
-| Oscar Micheaux | Within Our Gates |
+| Clarence Muse | Heart of Dixie |
+| Clarence Muse | Toussaint L'Overture |
+| Clarence Muse | The Custard Nine |
 
 At a minimum, an edge list contains two columns. Each row in an edge list describes a relationship. In the case of the list above, each row in the edge list describes *an actor who appeared in a film*.
 
@@ -13,7 +14,7 @@ But if you downloaded a CSV from the "People" table of our database, it probably
 
 LN | FN | AKA | DOB | DOD | Notes | Attachments | Films (Appeared in)
 --- | --- | ---|
-Abbott | Robert | | | | Editor and publisher of Chicago Defender. Mentioned in Musser et al.'s Micheaux filmography, in Bowser et al., Oscar Micheaux and His Circle. --MP | | The Millionaire
+Muse | Clarence | | 1/7/1889 | | Producer (per Caddoo). General director of Delsarte Film Corp., per GPJ Collection --MP | | Heart of Dixie,Toussaint L'Overture,The Custard Nine
 
 This tutorial will show you how to get from the spreadsheet you downloaded to a two-column edgelist that you can import into Cytoscape. We will use two pieces of software in order to do this: Microsft Excel (the infamous spreadsheet application) and [OpenRefine](http://openrefine.org/) (a tool for manipulating structured data). If you don't have Excel, you can perform similar operations with [Google Sheets](https://www.google.com/sheets/about/). [OpenRefine](http://openrefine.org/) is a free download for both Mac and Windows computers.
 
