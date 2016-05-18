@@ -13,8 +13,8 @@ At a minimum, an edge list contains two columns. Each row in an edge list descri
 But if you downloaded a CSV from the "People" table of our database, it probably looks something like this:
 
 LN | FN | AKA | DOB | DOD | Notes | Attachments | Films (Appeared in)
---- | --- | ---|
-Muse | Clarence | | 1/7/1889 | | Producer (per Caddoo). General director of Delsarte Film Corp., per GPJ Collection --MP | | Heart of Dixie,Toussaint L'Overture,The Custard Nine
+--- | --- | --- | --- | --- | --- | --- | --- |
+Muse | Clarence | | 1/7/1889 | | Producer (per Caddoo). General director of Delsarte Film Corp., per GPJ Collection --MP | | Heart of Dixie,Toussaint L'Overture,The Custard Nine |
 
 This tutorial will show you how to get from the spreadsheet you downloaded to a two-column edgelist that you can import into Cytoscape. We will use two pieces of software in order to do this: Microsft Excel (the infamous spreadsheet application) and [OpenRefine](http://openrefine.org/) (a tool for manipulating structured data). If you don't have Excel, you can perform similar operations with [Google Sheets](https://www.google.com/sheets/about/). [OpenRefine](http://openrefine.org/) is a free download for both Mac and Windows computers.
 
