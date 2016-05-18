@@ -16,7 +16,7 @@ Other kinds of relationships you could describe in an edge list:
 
 ... and on and on. The important thing here is that your edge list should contain a list of relationships between, at most, two kinds of entities (e.g., actors and films, people and preferences, people and books). The *nature* of those relationships can differ. For example, Person A could have *written* Book A, while Person B *published* Book A. But there should be two different kinds of things, at most, described in two columns.
 
-If you need guidance on setting up your data, you can find it [here](preparing-data-1-making-an-edge-list.md).
+If you need specific guidance on setting up your edge list, you can find it [here](preparing-data-1-making-an-edge-list.md).
 
 You can save your spreadsheet as an Excel document (with the file extension .xls) or its generic equivalent, a CSV (with the file extension .csv). Cytoscape can interpret both of these formats.
 
