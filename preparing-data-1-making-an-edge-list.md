@@ -31,7 +31,7 @@ In this tutorial, we'll proceed in several basic steps:
 
 Our data will be easier to work with if we get rid of columns we're not going to use in our edge list. Use Excel to open the spreadsheet you downloaded from the database.
 
-If you compare your spreadsheet to the edge list I described aboce, you'll note that the edge list contains only the first and last names of the actors and the titles of the films they've *appeared* in. So we can delete all of the other columns. Do this by clicking on the letter that appears above the column you want to delete, right-clicking or holding down the **Control** key, and choosing **Delete** from the context menu. Using this method, delete columns C-G and I-O. You should have three remaining columns: **LN**, **FN**, and **Films (Appeared In)**.
+If you compare your spreadsheet to the edge list I described above, you'll note that the edge list contains only the first and last names of the actors and the titles of the films they've *appeared* in. So we can delete all of the other columns. Do this by clicking on the letter that appears above the column you want to delete, right-clicking or holding down the **Control** key, and choosing **Delete** from the context menu. Using this method, delete columns C-G and I-O. You should have three remaining columns: **LN**, **FN**, and **Films (Appeared In)**.
 
 ![][1]
 
