@@ -127,7 +127,7 @@ Now every film title is in its own cell, but the cells are spread across multipl
 
 Click on the down arrow that appears to the left of your first **Films** column. (In my spreadsheet, the **Films** column is the first column.) From the menu that appears, select **Transpose** and then **Transpose cells across columns into rows**.
 
-A somewhat daunting box pops up. We'll work through the options together. In the **From** **Column** option, the **Films 1 **column should be selected. In the **To Column** option, your final film column (with my data, it's **Films 24**) should be selected.
+A somewhat daunting box pops up. We'll work through the options together. In the **From** **Column** option, the **Films 1** column should be selected. In the **To Column** option, your final film column (with my data, it's **Films 24**) should be selected.
 
 From the **Transpose into** options, select **One column** and enter the name **Films** into the text box. Leave **Ignore blank cells** checked, and check the **Fill down in other columns** option.
 
