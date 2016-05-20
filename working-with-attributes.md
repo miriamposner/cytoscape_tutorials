@@ -26,6 +26,8 @@ By convention, we usually label node names **id**, although it won't mess anythi
 
 In subsequent columns, you can provide attributes for each of your nodes. I'll just supply one here, called **type**, containing either **actor** or **film**. You could provide multiple columns, though, like **gender** or **director**.
 
+If you'd like to learn how to construct a node list, you can do that [here](preparing-data-3-making-a-node-list-from-an-edge-list.md).
+
 Once you've prepared your node list, save it as either an Excel document or a CSV (either is fine).
 
 If you'd like, you can use the sample node list located [here](data/nodelist.csv). (This will only work if you also used the sample edge list, though!)

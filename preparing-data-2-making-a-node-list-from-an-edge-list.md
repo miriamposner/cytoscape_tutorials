@@ -16,7 +16,7 @@ In this tutorial, we'll proceed in just a few steps:
 A node list, as I mentioned, generally looks something like this:
 
     | id | type |
-    | --- | --- |
+    |---|---|
     | The Millionaire | film |
     | The Sport of the Gods | film |
     | The Gunsaulus Mystery | film |
