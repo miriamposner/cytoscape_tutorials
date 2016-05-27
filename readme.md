@@ -2,6 +2,19 @@
 
 [Cytoscape](http://www.cytoscape.org/?gclid=CjwKEAjwsMu5BRD7t57R1P2HwBgSJABrtj-R-qVRQblhiMF7UjtuOoE7qYEOXXN9AGOtC7dThG8KZhoCKiHw_wcB) is a tool for viewing and analyzing **networks** (meaning, in this case, any group of entities that are connected in some way). Cytoscape is not too hard to use, but it won't make much sense unless you have a sense of some basic network analysis vocabulary and concepts. I've made a glossary for you [here](https://github.com/miriamposner/network_analysis_workshop/blob/master/social-network-glossary.md). In addition, Scott Weingart has a great [introduction to network analysis](http://journalofdigitalhumanities.org/1-1/demystifying-networks-by-scott-weingart/).
 
+## What is this?
+These tutorials provide a basic introduction to using Cytoscape to conduct network analysis of humanistic data. They're intended to be used with the [data my students and I collected about early African-American silent film](https://github.com/kcontreras168/Reconstructing-Early-African-American-Film-History). However, anyone should be able to follow along.
+
+Here's what's included:
+* Creating a basic Cytoscape network (that's this tutorial)
+* [Styling that network](working-with-attributes.md)
+* [Selecting parts of your network](working-with-selections.md)
+
+In addition, you'll likely need to manipulate your data in order to work with it. To that end, I've provided two tutorials to help you set up your data:
+
+* [Preparing Data 1: Making an Edge List](preparing-data-1-making-an-edge-list.md)
+* [Preparing Data 2: Making a Node List from an Edge List](preparing-data-2-making-a-node-list-from-an-edge-list.md)
+
 ## Setting up your data
 
 The most important thing to understand about Cytoscape (or, really, most network analysis tools) is the format in which you need to structure your data. At its most basic, Cytoscape wants a spreadsheet containing two columns. The objects in the first column should be connected in some way to the objects in the second column. This is called an **edge list**. In the example below, my edge list contains two kinds of things: **films** and **actors**. The columns could be reordered so that the Films column precedes the Actors column; it doesn't matter. All that matters here is that each row in my spreadsheet describes a connection between two entities.
