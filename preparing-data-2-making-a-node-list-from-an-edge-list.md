@@ -15,14 +15,14 @@ In this tutorial, we'll proceed in just a few steps:
 
 A node list, as I mentioned, generally looks something like this:
 
-    | id | type |
-    |---|---|
-    | The Millionaire | film |
-    | The Sport of the Gods | film |
-    | The Gunsaulus Mystery | film |
-    | Robert Abbott | actor |
-    | Mrs. Robert Abbott | actor |
-    | Edward R. Abrahams | actor |
+    id | type
+    --- | ---
+    The Millionaire | film
+    The Sport of the Gods | film
+    The Gunsaulus Mystery | film
+    Robert Abbott | actor
+    Mrs. Robert Abbott | actor
+    Edward R. Abrahams | actor
 
 In other words, each node is listed *once* in the first column, while the second column (and more columns, if necessary) contain each node's attributes.
 
