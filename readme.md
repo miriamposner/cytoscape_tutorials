@@ -7,7 +7,7 @@ These tutorials provide a basic introduction to using Cytoscape to conduct netwo
 
 Here's what's included:
 * Creating a basic Cytoscape network (that's this tutorial)
-* [Styling that network](working-with-attributes.md)
+* [Importing  node list and working with node attributes](working-with-attributes.md)
 * [Selecting parts of your network](working-with-selections.md)
 
 In addition, you'll likely need to manipulate your data in order to work with it. To that end, I've provided two tutorials to help you set up your data:
@@ -15,7 +15,7 @@ In addition, you'll likely need to manipulate your data in order to work with it
 * [Preparing Data 1: Making an Edge List](preparing-data-1-making-an-edge-list.md)
 * [Preparing Data 2: Making a Node List from an Edge List](preparing-data-2-making-a-node-list-from-an-edge-list.md)
 
-## Setting up your data
+## 1. Setting up your data
 
 The most important thing to understand about Cytoscape (or, really, most network analysis tools) is the format in which you need to structure your data. At its most basic, Cytoscape wants a spreadsheet containing two columns. The objects in the first column should be connected in some way to the objects in the second column. This is called an **edge list**. In the example below, my edge list contains two kinds of things: **films** and **actors**. The columns could be reordered so that the Films column precedes the Actors column; it doesn't matter. All that matters here is that each row in my spreadsheet describes a connection between two entities.
 
@@ -39,7 +39,7 @@ If you don't have your own data, you can use the sample edgelist located [here](
 
 [1]: images/creating-network-graphs-with-cytoscape/setting-up-your-data.png
 
-## Get your edge list into Cytoscape
+## 2. Get your edge list into Cytoscape
 
 Open up Cytoscape. You should be greeted with a welcome pane that looks something like the one below. (If not, read on for instructions on how to accomplish the same thing without the welcome screen.)
 
@@ -49,7 +49,7 @@ Start a new session **From Network File**. Somewhat confusingly, Cytoscape consi
 
 [2]: images/creating-network-graphs-with-cytoscape/get-your-edge-list-into-cytoscape.png
 
-## If you don't see that welcome screen...
+## 3. If you don't see that welcome screen...
 
 no big deal. Someone might have disabled it, but you can accomplish the same thing by clicking on the **Import Network from File** button (circled below) and selecting your edge list.
 
@@ -57,7 +57,7 @@ no big deal. Someone might have disabled it, but you can accomplish the same thi
 
 [3]: images/creating-network-graphs-with-cytoscape/if-you-don-t-see-that-welcome-screen.png
 
-## Help Cytoscape understand your data
+## 4. Help Cytoscape understand your data
 
 The screen that pops up after you imported your edge list might be the most initially confusing part of Cytoscape, although it's no problem once you figure out what it wants. You need to tell Cytoscape which parts of your data constitute the entities in your network diagram.
 
@@ -73,7 +73,7 @@ When you've changed both columns, click **OK**.
 
 [4]: images/creating-network-graphs-with-cytoscape/help-cytoscape-understand-your-data.png
 
-## You have a (very confusing) network!
+## 5. You have a (very confusing) network!
 
 If the previous steps worked properly, you should have a network of connected nodes. If you have more than 100 or so, though, your network will look a lot like a hairball. We'll talk about ways to make your network graph more legible in subsequent steps.
 
@@ -83,7 +83,7 @@ For now, note that you can zoom in on parts of your network using the magnifying
 
 [5]: images/creating-network-graphs-with-cytoscape/you-have-a--very-confusing--network-.png
 
-## Switch up your style
+## 6. Switch up your style
 
 One of the easiest ways to change the look of your network diagram is to switch the style using one of Cytoscape's built-in options. To do that, click the **Style** tab on the control panel and then choose one of the options with which you're presented. I don't know if I *love* any of them, but some are more legible than others.
 
@@ -91,7 +91,7 @@ One of the easiest ways to change the look of your network diagram is to switch 
 
 [6]: images/creating-network-graphs-with-cytoscape/switch-up-your-style.png
 
-## Change your layout
+## 7. Change your layout
 
 Sometimes networks are more legible if you change the arrangement of the nodes. You can do this by switching the layout. Click on **Layout** from Cytoscape's menu bar and select one of the layout options. Experiment with various layouts and notice how drastically your network diagram changes.
 
@@ -101,7 +101,7 @@ Confoundingly, each of these wildly different network layouts displays the same 
 
 [7]: images/creating-network-graphs-with-cytoscape/change-your-layout.png
 
-## Customize your style
+## 8. Customize your style
 
 You can make changes to many visual attributes of your network graph from Cytoscape's control panel. Once you've selected the **Style** tab, look at the bottom of the control panel. You'll see that three additional buttons allow you to customize the look of the **nodes**, the **edges**, and the **network** as a whole.
 
