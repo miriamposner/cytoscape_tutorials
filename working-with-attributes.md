@@ -128,7 +128,7 @@ You can, if you wish, fiddle with the Continuous Mapping Editor by double-clicki
 
 We've done a lot! We've learned how to import a node list; how to use node attributes to control the size, shape, and color of our nodes; how to calculate network statistics; and how to use those statistics to control the appearance of our graph. We can now derive more meaning from the graph we're working with; for example, it's easy, at a glance, to get a sense of which actors appeared in the most films, and which films employed the most actors.
 
-Our graph is still pretty overwhelming for the viewer, though. In the next tutorial, we'll learn how to work with just parts of it at a time.
+Our graph is still pretty overwhelming for the viewer, though. In the [next tutorial](working-with-selections.md), we'll learn how to work with just parts of it at a time.
 
 ![][10]
 
