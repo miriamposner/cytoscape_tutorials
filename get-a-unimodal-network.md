@@ -184,9 +184,9 @@ Type the following command:
 
 With this command, we're passing the **function **called [write.csv](https://stat.ethz.ch/R-manual/R-devel/library/utils/html/write.table.html) two arguments: the first, **onemode**, is the name of the file we want to save to our computer; the second, **file = "onemode.csv"**, is the name we want to give to the file we're saving.
 
-To figure out where RStudio, by default, saves files, click on the **Session** menu (in RStudio's main menu), then **Set Working Directory**, and then **Choose Directory**. You don't actually have to choose a directory (unless you want to); just take note of where RStudio's "working directory" -- that is, the first place is goes to look for files and save files.
+To figure out where RStudio, by default, saves files, click on the **Session** menu (in RStudio's main menu), then **Set Working Directory**, and then **Choose Directory**. You don't actually have to choose a directory (unless you want to); just take note of where RStudio's "working directory" -- that is, the first place is goes to look for files and save files. Then press **cancel**.
 
-Look in the working directory to find your new one-mode edge list, called **onemode.csv**.
+Now, minimize RStudio and look in your computer's working directory to find your new one-mode edge list, called **onemode.csv**.
 
 ![][11]
 
