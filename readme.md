@@ -9,6 +9,7 @@ Here's what's included:
 * Creating a basic Cytoscape network (that's this tutorial)
 * [Importing  node list and working with node attributes](working-with-attributes.md)
 * [Selecting parts of your network](working-with-selections.md)
+* [Converting your bimodal edge list into a unimodal edge list](get-a-unimodal-network.md)
 
 In addition, you'll likely need to manipulate your data in order to work with it. To that end, I've provided two tutorials to help you set up your data:
 
