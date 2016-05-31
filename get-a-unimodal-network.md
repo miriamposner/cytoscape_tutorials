@@ -194,7 +194,7 @@ Look in the working directory to find your new one-mode edge list, called **onem
 
 ## 12. Admire your work
 
-You now have a one-mode edge list that shws you which actors are connected, through a shared appearance in one or more films. Now you can import this edge list into Cytoscape and [build a network diagram](readme.md), just as you did with the previous list.
+You now have a one-mode edge list that shows you which actors are connected, through a shared appearance in one or more films. Now you can import this edge list into Cytoscape and [build a network diagram](readme.md), just as you did with the previous list.
 
 ![][12]
 
