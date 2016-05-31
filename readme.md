@@ -7,7 +7,7 @@ These tutorials provide a basic introduction to using Cytoscape to conduct netwo
 
 Here's what's included:
 * Creating a basic Cytoscape network (that's this tutorial)
-* [Importing  node list and working with node attributes](working-with-attributes.md)
+* [Importing a node list and working with node attributes](working-with-attributes.md)
 * [Selecting parts of your network](working-with-selections.md)
 * [Converting your bimodal edge list into a unimodal edge list](get-a-unimodal-network.md)
 
