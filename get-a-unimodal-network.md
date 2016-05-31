@@ -55,7 +55,7 @@ Now look down at the console, which is just below your file. You should see both
 "Hello world"
 ``
 
-This is how you'll work in RStudio. Generally, you'll enter one command at a time, run it, and then look down at the console to see the result (and any error messages).
+This is how we'll be working in RStudio for this tutorial. We'll enter one command at a time, run it, and then look down at the console to see the result (and any error messages).
 
 ![][3]
 
