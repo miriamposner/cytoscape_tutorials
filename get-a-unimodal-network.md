@@ -11,7 +11,7 @@ In order to get started with this tutorial, you'll need the following software i
 
 You'll also need an edge list. Your edge list can contain as many columns as you want, but the first two columns of the edge list should contain your source and target nodes. If you need help constructing an edge list, or if you don't understand what an edge list is, see [this tutorial](preparing-data-1-making-an-edge-list.md).
 
-If you'd like to practice with a sample two-mode edge list, you can use [this one](edgelist.csv).
+If you'd like to practice with a sample two-mode edge list, you can use [this one](data/edgelist.csv).
 
 ## 1. Open RStudio
 
