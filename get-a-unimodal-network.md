@@ -1,6 +1,6 @@
 # Get a unimodal network from a bimodal network
 
-As we saw in the [last tutorial](working-with-selections.md), bimodal networks (e.g., film-actor) can be illuminating, but trying to map relationships between two different entities on the same graph can also lead to confusion. That's why you'll sometimes want to graph unimodal networks instead (e.g., film-film or actor-actor). This tutorial will show you how to get from a bimodal network to a unimodal network.
+As we saw in the [last tutorial](working-with-selections.md), [bimodal networks](http://www.worldcat.org/oclc/881681427) (e.g., film-actor) can be illuminating, but trying to map relationships between two different entities on the same graph can also lead to confusion. That's why you'll sometimes want to graph unimodal networks instead (e.g., film-film or actor-actor). This tutorial will show you how to get from a bimodal network to a unimodal network.
 
 Take a deep breath and turn on some soothing music, because we're going to do a small amount of programming. I'll take you through each step, though, so you shouldn't ever get lost.
 
