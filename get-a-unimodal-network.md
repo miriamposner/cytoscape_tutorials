@@ -94,12 +94,12 @@ Now run this command the same way you ran the previous commands.
 
 [5]: images/get-a-unimodal-network/install-projector.png
 
-## 6. Require projectoR
+## 6. Load projectoR
 
 Even though we've installed projectoR, we haven't loaded it into our current RStudio session. (RStudio only imports packages as you need them, in order to save memory.) Let's tell RStudio that we'll be using projectoR by typing
 
 ``
-require(projectoR)
+library(projectoR)
 ``
 
 And, of course, run that line just as you did the previous lines.
