@@ -68,7 +68,7 @@ Now we'll use RStudio to install devtools, a **package** (add-on) for R that dev
 To install devtools, type
 
 ``
- install.packages("devtools")
+install.packages("devtools")
 ``
 
 Then place your cursor anywhere on that line and type **command** and then **return** (**control** and **enter** on a PC), just as you did in the previous step. Your console should look something like mine in the image below.
@@ -84,7 +84,7 @@ Now that we've installed devtools, we'll use it to install a package written esp
 To install ProjectoR, type
 
 ``
- devtools::install_github("mdlincoln/projectoR") ``
+devtools::install_github("mdlincoln/projectoR") ``
 
 Now run this command the same way you ran the previous commands.
 
@@ -113,7 +113,7 @@ And, of course, run that line just as you did the previous lines.
 OK, now we're going to start getting serious. Let's load in our data. We can do that by typing
 
 ``
- bipartite_list <- data.frame(read.csv(file.choose()))
+bipartite_list <- data.frame(read.csv(file.choose()))
 ``
 
 Before we run that command, though, let's look at what it means.
@@ -145,12 +145,12 @@ Take a look at the **Environment** pane at the top right of your RStudio workspa
 Time to do what we came to do! We'll accomplish that with one line of code:
 
 ``
-     onemode <- project_table(bipartite_list, joining_col = "films")
+onemode <- project_table(bipartite_list, joining_col = "films")
 ``
 
 Before we run this line, though, let's talk about what we're doing here.
 
-When Matt wrote the projectoR package, he [specified a particular function called ](https://github.com/mdlincoln/projectoR/blob/master/R/project_table.R)[**project_table**](https://github.com/mdlincoln/projectoR/blob/master/R/project_table.R). As Matt explains, the project_table function takes two **arguments** (that is, it asks for two piecces of information). The first argument is the name of the data frame that contains the two-mode edge list we want to convert. The second argument is what Matt calls the **joining column**. That is, it's the column that forms the basis of the relationships in the one-mode list you'll create.
+When Matt wrote the projectoR package, he [specified a particular function called ](https://github.com/mdlincoln/projectoR/blob/master/R/project_table.R)[**project_table**](https://github.com/mdlincoln/projectoR/blob/master/R/project_table.R). As Matt explains, the project_table function takes two **arguments** (that is, it asks for two pieces of information). The first argument is the name of the data frame that contains the two-mode edge list we want to convert. The second argument is what Matt calls the **joining column**. That is, it's the column that forms the basis of the relationships in the one-mode list you'll create.
 
 To make that more concrete, my two-mode edge list contains two columns: **films** and **actors**. Since I want to make a one-mode edge list that shows how actors are connected to each other, I'll specify that I want to use the other column -- the **films** column -- as the basis of these relationships.
 
