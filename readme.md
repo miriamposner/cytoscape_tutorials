@@ -16,6 +16,11 @@ In addition, you'll likely need to manipulate your data in order to work with it
 * [Preparing Data 1: Making an Edge List](preparing-data-1-making-an-edge-list.md)
 * [Preparing Data 2: Making a Node List from an Edge List](preparing-data-2-making-a-node-list-from-an-edge-list.md)
 
+You can cite these tutorials using the DOI linked below!
+
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.56245.svg)](http://dx.doi.org/10.5281/zenodo.56245)
+
+
 ## 1. Setting up your data
 
 The most important thing to understand about Cytoscape (or, really, most network analysis tools) is the format in which you need to structure your data. At its most basic, Cytoscape wants a spreadsheet containing two columns. The objects in the first column should be connected in some way to the objects in the second column. This is called an **edge list**. In the example below, my edge list contains two kinds of things: **films** and **actors**. The columns could be reordered so that the Films column precedes the Actors column; it doesn't matter. All that matters here is that each row in my spreadsheet describes a connection between two entities.
