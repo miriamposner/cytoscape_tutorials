@@ -3,7 +3,7 @@
 [Cytoscape](http://www.cytoscape.org/?gclid=CjwKEAjwsMu5BRD7t57R1P2HwBgSJABrtj-R-qVRQblhiMF7UjtuOoE7qYEOXXN9AGOtC7dThG8KZhoCKiHw_wcB) is a tool for viewing and analyzing **networks** (meaning, in this case, any group of entities that are connected in some way). Cytoscape is not too hard to use, but it won't make much sense unless you have a sense of some basic network analysis vocabulary and concepts. I've made a glossary for you [here](https://github.com/miriamposner/network_analysis_workshop/blob/master/social-network-glossary.md). In addition, Scott Weingart has a great [introduction to network analysis](http://journalofdigitalhumanities.org/1-1/demystifying-networks-by-scott-weingart/).
 
 ## What is this?
-These tutorials provide a basic introduction to using Cytoscape to conduct network analysis of humanistic data. They're intended to be used with the [data my students and I collected about early African-American silent film](https://github.com/kcontreras168/Reconstructing-Early-African-American-Film-History). However, anyone should be able to follow along.
+These tutorials provide a basic introduction to using Cytoscape to conduct network analysis of humanistic data. They're intended to be used with the [data my students and I collected about early African-American silent film](http://dhbasecamp.humanities.ucla.edu/afamfilm/the-data/). However, anyone should be able to follow along.
 
 Here's what's included:
 * Creating a basic Cytoscape network (that's this tutorial)
