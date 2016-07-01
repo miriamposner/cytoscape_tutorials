@@ -130,6 +130,8 @@ We've done a lot! We've learned how to import a node list; how to use node attri
 
 Our graph is still pretty overwhelming for the viewer, though. In the [next tutorial](working-with-selections.md), we'll learn how to work with just parts of it at a time.
 
+(Or you can skip straight to [publishing your network diagram](publishing-your-network-diagram.md)!)
+
 ![][10]
 
 [10]: images/working-with-attributes/taking-stock.png
