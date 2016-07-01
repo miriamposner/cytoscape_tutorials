@@ -35,7 +35,7 @@ Hang in there. There are a lot of steps, but none of them is actually that compl
 
 Let's export our network data from Cytoscape. To do that, click on **File**, then **Export**, then **Export Network and View**. (Be sure you choose **Network and View**; exporting the network alone won't work.)
 
-For the export file format (**1**), select **Cytoscape.js JSON (*.cyjs)**. In the field labeled **Save Network as **(**2**), click **Browse **(**3**),** **give your file a name (**4**), and save it somewhere you'll find it again later. Finally, click **OK**.
+For the export file format (**1**), select **Cytoscape.js JSON (*.cyjs)**. In the field labeled **Save Network as **(**2**), click **Browse** (**3**), give your file a name (**4**), and save it somewhere you'll find it again later. Finally, click **OK**.
 
 ![][3]
 
