@@ -11,13 +11,9 @@ Your node list should contain, at a minimum, one column that supplies the name o
 | actor | film |
 | -----| ----- |
 | Ida Anderson	 | Deceit |
-
 | Ida Anderson |	A Son of Satan |
-
 | Ida Anderson |	The Secret Sorrow |
-
 | Ida Anderson |	Gayety |
-
 | Ida Anderson	| Ghost of Tolson's Manor |
 
 We don't want this in our node list, though. We only want Ida Anderson to appear once, and we only want each film's title to appear once. Actors and films should all be in the same column.
