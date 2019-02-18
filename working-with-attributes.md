@@ -1,6 +1,6 @@
 # Working with Attributes
 
-As we learned in the [last tutorial](readme.md), all Cytoscape *really* needs is an edge list with two columns in it. But you might also want to supply Cytoscape with a list of nodes. That way, you can feed Cytoscape extra information that you can use to distinguish among nodes. That extra information about your nodes is called **attributes**.
+As we learned in the last tutorial, all Cytoscape *really* needs is an edge list with two columns in it. But you might also want to supply Cytoscape with a list of nodes. That way, you can feed Cytoscape extra information that you can use to distinguish among nodes. That extra information about your nodes is called **attributes**.
 
 (Actually, edges can have attributes, too, as you might have guessed. In the case of edges, the attributes usually describe the nature of the connection between nodes. For example, if I had a People column and a Book column, I could use edge attributes to describe the nature of each connection: *published*, *wrote*, *illustrated*. We'll just deal with node attributes here, but the same steps apply to edge attributes, too.)
 
@@ -8,7 +8,6 @@ As we learned in the [last tutorial](readme.md), all Cytoscape *really* needs is
 
 Your node list should contain, at a minimum, one column that supplies the name of every node *once*. My edge list, as you may have noticed, contained many actors' names and film titles multiple times. For example, since Ida Anderson appeared in multiple films, I had rows that looked like this:
 
-```
 Ida Anderson	Deceit
 
 Ida Anderson	A Son of Satan
@@ -18,7 +17,6 @@ Ida Anderson	The Secret Sorrow
 Ida Anderson	Gayety
 
 Ida Anderson	Ghost of Tolson's Manor
-```
 
 We don't want this in our node list, though. We only want Ida Anderson to appear once, and we only want each film's title to appear once. Actors and films should all be in the same column.
 
@@ -26,11 +24,7 @@ By convention, we usually label node names **id**, although it won't mess anythi
 
 In subsequent columns, you can provide attributes for each of your nodes. I'll just supply one here, called **type**, containing either **actor** or **film**. You could provide multiple columns, though, like **gender** or **director**.
 
-If you'd like to learn how to construct a node list, you can do that [here](preparing-data-2-making-a-node-list-from-an-edge-list.md).
-
 Once you've prepared your node list, save it as either an Excel document or a CSV (either is fine).
-
-If you'd like, you can use the sample node list located [here](data/nodelist.csv). (This will only work if you also used the sample edge list, though!)
 
 ![][1]
 
@@ -40,7 +34,7 @@ If you'd like, you can use the sample node list located [here](data/nodelist.csv
 
 Head back to Cytoscape, where the graph you created during the previous tutorial should be open. We're now going to add our new node list to the existing graph.
 
-Do that by clicking on the **Import Table from File** button, circled below. In the window that pops up, select your node list and click **Open**.
+Do that by clicking on the **Import Table from File** button, circled below. In the window that pops up, select your node list and click **Open**. 
 
 ![][2]
 
@@ -92,7 +86,7 @@ Give each type of node a color by clicking on the tiny button that contains thre
 
 You can supply your own attributes to Cytoscape, as we just did with our node list. However, part of the power of Cytoscape is its ability to calculate certain attributes of your network *for* you. For example, Cytoscape can provide each node with a number that reflects its *degree*, meaning the number of connections to and from that node. We can then use that number to control the size of our nodes.
 
-To get Cytoscape to provide these values, choose **Tools** from Cytoscape's menu, then **Network Analyzer**, then **Network Analysis**, and finally **Analyze Network**. In the window that pops up, Cytoscape will ask you whether you'd like it to treat your edges as directed or undirected. Remember, all of our connections are reciprocal, so select **Treat Network as Undirected**. Once you click **OK**, Cytoscape will perform some calculations, provide you some statistics, and fill in some new columns in your Nodes, Edges, and Network tables.
+To get Cytoscape to provide these values, choose **Tools** from Cytoscape's menu, then **Network Analyzer**, then **Network Analysis**, and finally **Analyze Network**. In the window that pops up, Cytoscape will ask you whether you'd like it to treat your edges as directed or undirected. Remember, all of our connections are reciprocal, so select **Treat Network as Undirected**. Once you click **OK**, Cytoscape will perform some calculations and fill in some new columns in your Nodes, Edges, and Network tables.
 
 ![][7]
 
@@ -100,7 +94,7 @@ To get Cytoscape to provide these values, choose **Tools** from Cytoscape's menu
 
 ## Understanding these statistics
 
-You can close the Statistics panel, or save the statistics, or both. To understand what these numbers mean, refresh your memory of the [social network analysis glossary](https://github.com/miriamposner/network_analysis_workshop/blob/master/social-network-glossary.md) I provided you in the last tutorial. Here's an important caveat, though: Some of these statistics are meaningful for the kind of graph we have, and some of them aren't. We have a [**bimodal network**](http://www.scottbot.net/HIAL/index.html@p=41158.html), meaning we have two different kinds of things: actors and nodes. Not all measures of networks make sense for bimodal networks.
+To understand what these numbers mean, refresh your memory of the [social network analysis glossary](https://github.com/miriamposner/network_analysis_workshop/blob/master/social-network-glossary.md) I provided you in the last tutorial. Here's an important caveat, though: Some of these statistics are meaningful for the kind of graph we have, and some of them aren't. We have a [**bimodal network**](http://www.scottbot.net/HIAL/index.html@p=41158.html), meaning we have two different kinds of things: actors and nodes. Not all measures of networks make sense for bimodal networks. 
 
 Degree centrality, for example, still makes some sense for bimodal networks. If a node has a bunch of connections, we know it's either *an actor who appeared in a lot of movies* or *a film that contains a lot of actors*. (Although, obviously, those two qualities are two very different things.) The clustering coefficient statistic, however, means very little for bimodal networks, because your network contains two different orders of things. To read more about measures of bimodal networks, see Scott Weingart's [stern words of advice.](http://www.scottbot.net/HIAL/index.html@p=41158.html)
 
@@ -128,9 +122,7 @@ You can, if you wish, fiddle with the Continuous Mapping Editor by double-clicki
 
 We've done a lot! We've learned how to import a node list; how to use node attributes to control the size, shape, and color of our nodes; how to calculate network statistics; and how to use those statistics to control the appearance of our graph. We can now derive more meaning from the graph we're working with; for example, it's easy, at a glance, to get a sense of which actors appeared in the most films, and which films employed the most actors.
 
-Our graph is still pretty overwhelming for the viewer, though. In the [next tutorial](working-with-selections.md), we'll learn how to work with just parts of it at a time.
-
-(Or you can skip straight to [publishing your network diagram](publishing-your-network-diagram.md)!)
+Our graph is still pretty overwhelming for the viewer, though. In the next tutorial, we'll learn how to work with just parts of it at a time.
 
 ![][10]
 
