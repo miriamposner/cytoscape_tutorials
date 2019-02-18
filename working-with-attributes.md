@@ -8,6 +8,8 @@ As we learned in the last tutorial, all Cytoscape *really* needs is an edge list
 
 Your node list should contain, at a minimum, one column that supplies the name of every node *once*. My edge list, as you may have noticed, contained many actors' names and film titles multiple times. For example, since Ida Anderson appeared in multiple films, I had rows that looked like this:
 
+| actor | film |
+| -----| ----- |
 | Ida Anderson	 | Deceit |
 
 | Ida Anderson |	A Son of Satan |
