@@ -34,7 +34,7 @@ Once you've prepared your node list, save it as either an Excel document or a CS
 
 Head back to Cytoscape, where the graph you created during the previous tutorial should be open. We're now going to add our new node list to the existing graph.
 
-Do that by clicking on the **Import Table from File** button, circled below. In the window that pops up, select your node list and click **Open**. 
+Do that by clicking on the **Import Table from File** button, circled below. In the window that pops up, select your node list and click **Open**.
 
 ![][2]
 
@@ -94,7 +94,7 @@ To get Cytoscape to provide these values, choose **Tools** from Cytoscape's menu
 
 ## Understanding these statistics
 
-To understand what these numbers mean, refresh your memory of the [social network analysis glossary](https://github.com/miriamposner/network_analysis_workshop/blob/master/social-network-glossary.md) I provided you in the last tutorial. Here's an important caveat, though: Some of these statistics are meaningful for the kind of graph we have, and some of them aren't. We have a [**bimodal network**](http://www.scottbot.net/HIAL/index.html@p=41158.html), meaning we have two different kinds of things: actors and nodes. Not all measures of networks make sense for bimodal networks. 
+To understand what these numbers mean, refresh your memory of the [social network analysis glossary](https://github.com/miriamposner/network_analysis_workshop/blob/master/social-network-glossary.md) I provided you in the last tutorial. Here's an important caveat, though: Some of these statistics are meaningful for the kind of graph we have, and some of them aren't. We have a [**bimodal network**](http://www.scottbot.net/HIAL/index.html@p=41158.html), meaning we have two different kinds of things: actors and nodes. Not all measures of networks make sense for bimodal networks.
 
 Degree centrality, for example, still makes some sense for bimodal networks. If a node has a bunch of connections, we know it's either *an actor who appeared in a lot of movies* or *a film that contains a lot of actors*. (Although, obviously, those two qualities are two very different things.) The clustering coefficient statistic, however, means very little for bimodal networks, because your network contains two different orders of things. To read more about measures of bimodal networks, see Scott Weingart's [stern words of advice.](http://www.scottbot.net/HIAL/index.html@p=41158.html)
 
@@ -122,7 +122,7 @@ You can, if you wish, fiddle with the Continuous Mapping Editor by double-clicki
 
 We've done a lot! We've learned how to import a node list; how to use node attributes to control the size, shape, and color of our nodes; how to calculate network statistics; and how to use those statistics to control the appearance of our graph. We can now derive more meaning from the graph we're working with; for example, it's easy, at a glance, to get a sense of which actors appeared in the most films, and which films employed the most actors.
 
-Our graph is still pretty overwhelming for the viewer, though. In the next tutorial, we'll learn how to work with just parts of it at a time.
+Our graph is still pretty overwhelming for the viewer, though. In the [next tutorial](https://github.com/miriamposner/cytoscape_tutorials/blob/master/working-with-selections.md), we'll learn how to work with just parts of it at a time.
 
 ![][10]
 
