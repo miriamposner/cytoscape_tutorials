@@ -120,7 +120,7 @@ Before we run that command, though, let's look at what it means.
 
 We're creating our very first [**variable**](http://www.programiz.com/r-programming/variable-constant) in R. That variable, called **bipartite_list**, is built by creating a data frame out of a CSV of your choosing. You can tell we're assigning a variable because of that left-pointing arrow. We could've called the variable anything, but I'm calling it bipartite_list because that's what Matt calls it in his documentation.
 
-A [**data frame**](http://www.r-tutor.com/r-introduction/data-frame) is a particular arrangement of data. Technically, it's ["a list of vectors of equal length."](http://www.r-tutor.com/r-introduction/data-frame) What's a **vector**? It's ["a sequence of data elements of the same basic type."](http://www.r-tutor.com/r-introduction/vector) So all of the elements in a vector have to be the same kind of thing: numbers, character strings, or logical values.
+A [**data frame**](http://www.r-tutor.com/r-introduction/data-frame) is a particular arrangement of data. Technically, it's ["a list of vectors of equal length."](http://www.r-tutor.com/r-introduction/data-frame) What's a [**vector**](https://www.scaler.com/topics/cpp/vector-in-cpp/)? It's ["a sequence of data elements of the same basic type."](http://www.r-tutor.com/r-introduction/vector) So all of the elements in a vector have to be the same kind of thing: numbers, character strings, or logical values.
 
 Happily, both of the columns in our edge list meet this definition of a **vector**, since they're both composed entirely of character strings. Even better, our edge list is, of necessity, composed of two vectors of the same length -- so it also fits the definition of a data frame.
 
